@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background: url(../img/beach.jpg) center / cover;
+  text-align: center;
+  padding: 35px 0 175px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #f0f0f0;
+  margin-bottom: 75px;
+  line-height: 70px;
+}
+
+.header p{
+  font-size: 20px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+  line-height: 23px;
+}
+
+.btn {
+  background-color: #ff9728;
+  border: none;
+  font-size: 21px;
+  padding: 16px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  margin-bottom: 225px;
+}
+
+.title {
+  padding: 120px 10px;
+  text-align: center;
+  color: #0f4c92;
+  background: #DEF0FF;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 40px;
+  opacity: 0.77;
+}
+
+.title p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+/* NEWS */
+
+.news {
+  padding: 80px 10px 100px 10px;
+}
+
+.news__container{
+  width: 1195px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.news__body {
+  display: flex;
+}
+
+.news__body:nth-child(2) img {
+  order: 1;
+}
+
+.news__body img{
+  width: 585px;
+  height: 580px;
+}
+
+.news__description {
+  padding-left: 80px;
+  padding-top: 65px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0F4C92;
+}
+
+.date {
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+
+.date span {
+  font-weight: bold;
+}
+
+.news__description p{
+  font-size: 18px;
+  color: #1b1b1b;
+  margin-top: 40px;
+}
+
+.more__info {
+  font-size: 21px;
+  line-height: 24.5px;
+  color: #fff;
+  background: #0d5990;
+  border: none;
+  padding: 16px 70px;
+  border-radius: 45px;
+  margin-top: 40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.callback-form {
+  background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+  border-radius: 50px;
+  padding: 100px 80px 50px;
+}
+
+.callback-form h2 {
+  color: #F9F9F9;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.callback-form input {
+  width: 350px;
+  border: 1px solid #f7f6f6;
+  background-color: transparent;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 21px;
+  box-sizing: border-box;
+}
+
+.callback-form input::first-child{
+  margin-right: 15px;
+}
+
+.callback-form input::placeholder{
+  font-size: 18px;
+  color: #b2e3ff;
+}
+
+.callback-form .callback-form__btn {
+  background-color: #ff9728;
+  border: none;
+  font-size: 21px;
+  padding: 16px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  width: 190px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.form {
+  padding: 97px 10px;
+  text-align: center;
+  color: #F4F4F4;
+  background: #B5E4FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__body {
+  padding: 61px 60px 30px 60px;
+  background: #2B477C;
+  width: 785px;
+  border-radius: 19px;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 39px;
+}
+
+.form__text {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+
+.form__btn {
+  background: #FF9728; 
+  padding: 16px 40px;
+  min-height: 57px;
+  border-radius: 84px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.map__section h2{
+  color: #0F4C92;
+  text-align: center;
+  margin: 75px 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.map {
+  width: 100%;
+  height: 355px;
+  border: 5px;
+}
+
+footer{
+  background: #0B83BE;
+  padding: 50px 0;
+
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+
+}
+
+h5 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 96px;
+  text-align: center;
+}
+
+footer p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
